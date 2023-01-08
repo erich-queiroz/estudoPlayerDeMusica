@@ -1,0 +1,78 @@
+body {
+    color: white;
+    /*background-color: rgb(28, 28, 28);*/
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,44,44,1) 100%);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+/*.cover {
+    max-width: 300px;
+    max-height: 300px;
+}*/
+#cover_abaixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0 1em 0;
+}
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.botao {
+    font-size: 1.5em;
+}
+.botao-nav {
+    font-size: 3em;
+}
+.btn-maior {
+    font-size: 4em;
+}
+#cover {
+    width: 450px;
+    /*border: 4px solid white;*/
+}
+/*.player-container {
+    background-color: red;
+}*/
+#titulo-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.5em 0 2em 0;
+}
+#musica-nome {
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.light-color {
+    color: rgb(139, 153, 156)
+}
+.likeVermelho {
+    color: red;
+}
+#barra-progresso {
+    background-color: rgb(139, 153, 156);
+    height: 3px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+#progresso-atual {
+    height: inherit;
+    border-radius: inherit;
+    width: 50%;
+    background-color: white;
+}
