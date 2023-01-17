@@ -73,6 +73,10 @@ button {
 #progresso-atual {
     height: inherit;
     border-radius: inherit;
-    width: 50%;
+    width: 0%;
     background-color: white;
+}
+
+#pause {
+    display: none;
 }
